@@ -31,12 +31,9 @@ The password itself is salted using bcrypt and authenticated using a local strat
 When you check out, your information is sent directly through to stripe, with your credit card information protected and not stored on the database. Your history of orders is then viewable in your user profile.
 
 
-##Design Thoughts
+##Closing
 
 I built this app to experiment with using Stripe and to think about the workflow of a shopping cart. As such, I decided to use Handlebars for simple templating and focused more on the functionality than on the clenliness of the code. In general, I would break up the routes much more, as well as make it more DRY.
 
-
-
-##Closing
 
 I feel like building this app was a great stepping stone for a production app that I am working on. I think that Stripe is an awesome, easy to use tool.
